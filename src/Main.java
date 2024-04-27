@@ -6,5 +6,8 @@ public class Main {
         logger.log("Application is starting...");
         logger.log("Performing some operations...");
         logger.log("Application is shutting down...");
+
+        // Lukker loggeren korrekt
+        logger.closeLogger();
     }
 }
